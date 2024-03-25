@@ -17,6 +17,7 @@ This repository serves as a playground for experimenting with language modeling 
 4. **Preprocessing (Optional)**:
    - Upload your training dataset (text file or compressed file).
    - Compression command: `bzip2 <input-file.txt>`.
+   - Tokenization: Use the GPT2TokenizerFast from Hugging Face Transformers library to tokenize the text data. This step converts the text into tokens suitable for training with models like GPT-2.
 
 5. **Training the Model**:
    - Use the provided function to train a language model.
